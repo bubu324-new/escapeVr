@@ -1,0 +1,701 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Enterprise' Language: 'en' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/escapeVr-main/escapeVr-main
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62495
+Successfully changed project path to: D:/escapeVr-main/escapeVr-main
+D:/escapeVr-main/escapeVr-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [84328] Host "[IP] 192.168.1.178 [Port] 0 [Flags] 2 [Guid] 2416607750 [EditorId] 2416607750 [Version] 1048832 [Id] WindowsEditor(7,cs9185a) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [84328] Host "[IP] 192.168.1.178 [Port] 0 [Flags] 2 [Guid] 2416607750 [EditorId] 2416607750 [Version] 1048832 [Id] WindowsEditor(7,cs9185a) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 27 workers.
+Refreshing native plugins compatible for Editor in 5977.44 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/escapeVr-main/escapeVr-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.223554 seconds.
+- Loaded All Assemblies, in  9.164 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.213 seconds
+Domain Reload Profiling: 9375ms
+	BeginReloadAssembly (7527ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (602ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (259ms)
+	LoadAllAssembliesAndSetupDomain (769ms)
+		LoadAssemblies (7523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (768ms)
+			TypeCache.Refresh (766ms)
+				TypeCache.ScanAssembly (757ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (213ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (177ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.715 seconds
+Refreshing native plugins compatible for Editor in 11.33 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <dc753a1061284f8e971ee88ee4826eee>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5d5ebefe97114215928ac1d9cd096522>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 3330ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (2574ms)
+		LoadAssemblies (2458ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 14.05 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 6919 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (371.5 KB). Loaded Objects now: 7399.
+Memory consumption went from 258.0 MB to 257.7 MB.
+Total: 3.105800 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.130900 ms MarkObjects: 2.488100 ms  DeleteObjects: 0.172000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DetachableLimb.cs: adf123b9021c0c8c33325fd5f8213f51 -> 
+  custom:scripting/monoscript/fileName/TestPlanImporterWindow.cs: 93f4e92b72e88471cab5f9a2038fe3b8 -> 
+  custom:scripting/monoscript/fileName/TeleportPlayerOnEnter.cs: 3f04e4f1cc5830a3896b3189716420df -> 
+  custom:scripting/monoscript/fileName/VRIFGrabpointUpdaterEditor.cs: b3c494edf2985d718de103503fb390ee -> 
+  custom:scripting/monoscript/fileName/PlayerRotation.cs: db74278d69968e262cf19083b4638168 -> 
+  custom:scripting/monoscript/fileName/FileIdResolver.cs: 11fbe3ad5c5e310740905b26c4ab8bef -> 
+  custom:scripting/monoscript/fileName/JointBreaker.cs: eb8ce2fcbd3f9b82164b2117a38b4540 -> 
+  custom:scripting/monoscript/fileName/CharacterConstraint.cs: 489f2b22d9b0d3cff80aa3bbb8ee72f8 -> 
+  custom:scripting/monoscript/fileName/VelocityTracker.cs: 26d0ededfa3a01c1b6cc9aa98183ddec -> 
+  custom:scripting/monoscript/fileName/GrabPoint.cs: c333d34c09b2bf828f7d2c1543ef94d3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VRUISystem.cs: c90def28dc668ceeaafb4db60e6154b6 -> 
+  custom:scripting/monoscript/fileName/ArrowGrabArea.cs: fa28e6760e698bd1d3922fdcf5d8f64c -> 
+  custom:scripting/monoscript/fileName/LocomotionManager.cs: 6dd6f52673fcf67da92d49b8cce4a66c -> 
+  custom:scripting/monoscript/fileName/GrabbablesInTrigger.cs: c06dcfe681475f0a68dab590f09dd1e0 -> 
+  custom:scripting/monoscript/fileName/RagdollHelper.cs: 4ed8dd102d9dcd408aacaa07126c9e78 -> 
+  custom:scripting/monoscript/fileName/FingerJoint.cs: 26f925fdbd266656fc43284408388f97 -> 
+  custom:scripting/monoscript/fileName/BaseExplorer.cs: d41055a68981854091fed290922c6b32 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CharacterYOffset.cs: 51688010d13eca4db3a963eda10ecab9 -> 
+  custom:scripting/monoscript/fileName/RichText.cs: 56b26cfdb31f1b64f8408072204d9e45 -> 
+  custom:scripting/monoscript/fileName/HandPoseSaveAs.cs: dd57aa5c106c57eb3bc7136c358bc9e3 -> 
+  custom:scripting/monoscript/fileName/BaseAction.cs: 29735cbbe4f0a2179fafafe08c0dcc33 -> 
+  custom:scripting/monoscript/fileName/ActionUnitConverter.cs: 9cdc7c8396fe0c9b3036ef493caa4223 -> 
+  custom:scripting/monoscript/fileName/Marker.cs: 21bd5e8d8617bcd7cb068f42622f7878 -> 696c95afe34ccc04af31507858d049ed
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: b0aa02ba7291465a9cfe50ffdb75c09a -> 
+  custom:scripting/monoscript/fileName/HandPoserEditor.cs: 79e6ec5de731f16759e31c774641c960 -> 
+  custom:scripting/monoscript/fileName/GrabbableRingHelper.cs: 9f0f47f9390bc2134bcfdbb0fc684614 -> 
+  custom:scripting/monoscript/fileName/Climbable.cs: b4b5a0f9bf83fd2c6d12ca778e2b5331 -> 
+  custom:scripting/monoscript/fileName/PlayerClimbing.cs: f039f89a58189e370455f6e6140e00ee -> 
+  custom:scripting/monoscript/fileName/PlayerGravity.cs: 1a70375b581123047ee6a5b9f828210b -> 
+  custom:scripting/monoscript/fileName/EntityManager.cs: cb9d697e2fa7f578296d7793946c50ae -> 
+  custom:scripting/precompiled-assembly-types:BNG: 2080513fca6f8b9cb390a059827f5e5a -> 
+  custom:scripting/monoscript/fileName/Flashlight.cs: b63deebf344853d97b07ebc990c03509 -> 
+  custom:scripting/monoscript/fileName/HeadCollisionFade.cs: 1667a5a76b45c192e5cbfed8131521c4 -> 
+  custom:scripting/monoscript/fileName/ReturnToSnapZone.cs: 6b98837112f0c2ace840d27f0638b20c -> 
+  custom:scripting/monoscript/fileName/Tooltip.cs: 3a9ed4a57c35e63ea9d61b1e01b8d5e4 -> efbd10c978725fde614599dc839eb715
+  custom:scripting/monoscript/fileName/PunctureCollider.cs: 1b4229ba43dd1f91cfef3efe4400152b -> 
+  custom:scripting/monoscript/fileName/IntegrationsEditor.cs: da3848e1deb4a2a08250e4887347fe23 -> 
+  custom:scripting/monoscript/fileName/GrabbableBezierLine.cs: f499e883d4eb7a01df2b648ee5278ccc -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: c29a67e707bbc35e308410d1e88cd2e5 -> 
+  custom:scripting/monoscript/fileName/ScaleBetweenPoints.cs: 8d07cc7d5ddc2c3452ec3e395844fe23 -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 8f042e67f9d9c21d4e0429b12d52ba4e -> 
+  custom:scripting/monoscript/fileName/TimeController.cs: 639dc5f076ae928044a6d29a2bf8f060 -> 
+  custom:scripting/monoscript/fileName/VREmulator.cs: 5cee6ff89542b24d2d3665b05dd9b323 -> 
+  custom:scripting/monoscript/fileName/AutoPoserEditor.cs: 9323a7b5d8bf406a3571b753fdf1e7b9 -> 
+  custom:scripting/monoscript/fileName/ParameterResolver.cs: e54a3a0aa2d147579035383d62da6810 -> 
+  custom:scripting/monoscript/fileName/ClimbableEditor.cs: 9c942abafd2c8bb50dbcd1f41ca85b8c -> 
+  custom:scripting/monoscript/fileName/TriggerAction.cs: bf85dc5cd87e59e8a3a739401af7d2ef -> 
+  custom:scripting/monoscript/fileName/SkeletonVisualizer.cs: e5154a5e9e742a8130d44c82c028984f -> 
+  custom:scripting/monoscript/fileName/TrackedDevice.cs: 9a6750267684528265b8b00f303dd2d8 -> c0a523d9ef4d6df623781ab9912266ea
+  custom:scripting/monoscript/fileName/Singleton.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/Button.cs: ea5869cdad2326d406cb645783293221 -> 18874d3cd8f6e3668320e6beabdb6cbc
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GrabberArea.cs: 1b74ab075d76605adfee11896503b0cd -> 
+  custom:scripting/monoscript/fileName/AmmoDispenser.cs: af017ee03c31121b2bbee29d96ffab87 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/HandPoseDefinition.cs: 57f2b3d923c8f44528c181f606081d79 -> 
+  custom:scripting/monoscript/fileName/LiquidWobble.cs: 955a10dacebcc49ea358429fed7495f7 -> 
+  custom:scripting/monoscript/fileName/PluginsEditor.cs: 050ba7ad2acb5362a8260d5219e9adfc -> 
+  custom:scripting/monoscript/fileName/GrabbableHighlightMaterial.cs: 8f2f8fb8f9bca656c4f86a305e3d4485 -> 
+  custom:scripting/monoscript/fileName/GrappleShot.cs: e1212414151cbc03f83fec3c86a3bfb7 -> 
+  custom:scripting/monoscript/fileName/RaycastWeapon.cs: 0102b98eda647cecaecc163aeb39d4db -> 
+  custom:scripting/monoscript/fileName/BulletHole.cs: e56ef697d8546a290f15274cc46a9b4b -> 
+  custom:scripting/monoscript/fileName/HandPoseEditor.cs: 0e8160827b74d9dace03370981f74ec1 -> 
+  custom:scripting/monoscript/fileName/DrawerSound.cs: 680829e192ee15311ae2eee293cc075e -> 
+  custom:scripting/monoscript/fileName/PlayerMovingPlatformSupport.cs: 6c16175c01e374636481249760ae83dd -> 
+  custom:scripting/monoscript/fileName/GrabbableChild.cs: 1893a7f033c01925b741449d2a83b5ea -> 
+  custom:scripting/monoscript/fileName/HandleHelper.cs: 4d7c6a32e41423321e92af36826ab902 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandController.cs: 53a4ad388cccb43d28f2eff8aad69c25 -> 
+  custom:scripting/monoscript/fileName/DemoCube.cs: 3417bf3ff1d12a2727fdf008a92de2a8 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 1d23113412bef0704ecb3ee4c4293a9f -> 
+  custom:scripting/monoscript/fileName/FPSText.cs: 026a0e35fda18dec29d54a3f9093689a -> 
+  custom:scripting/monoscript/fileName/FingerTipCollider.cs: b1f135dffee43e48f250589396eba614 -> 
+  custom:scripting/monoscript/fileName/DoorHelper.cs: 6dad351d53245f70025db15a13884839 -> 
+  custom:scripting/monoscript/fileName/VRExplorer.cs: e7fa7f7795c96037f1266000de9fb697 -> 
+  custom:scripting/monoscript/fileName/GrabbableEditor.cs: 97c00f620871cc2831348d1897a673c1 -> 
+  custom:scripting/monoscript/fileName/MoveAction.cs: 27d10bb685f34a415b478e8f17c2a951 -> 
+  custom:scripting/monoscript/fileName/UITrigger.cs: e1c4dac016e03bc943713f00484e552b -> 
+  custom:scripting/monoscript/fileName/SnapZoneScale.cs: f98da9539f2932e247c40ffff64cd2c4 -> 
+  custom:scripting/monoscript/fileName/VehicleController.cs: a9154d17b90cc2b6904c1582c39c6d88 -> 
+  custom:scripting/precompiled-assembly-types:VRAgent.Editor: 769bf9f74f31c92914d19519c92951c5 -> 
+  custom:scripting/monoscript/fileName/IgnoreColliders.cs: e67a3220abcc8b902c430adc6c6e8e1c -> 
+  custom:scripting/monoscript/fileName/RotateTowards.cs: c3715721046be8225244c9f6f81cf5fb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandJet.cs: dbd2d9f4f301a114355202127e20d220 -> 
+  custom:scripting/monoscript/fileName/GrabbableHaptics.cs: e8dfc9185b1eef7a565b804f345b4405 -> 
+  custom:scripting/monoscript/fileName/LaserPointer.cs: 2ae575f78d24d8c4363eca6a2eb61e46 -> 
+  custom:scripting/monoscript/fileName/VRIFGrabpointUpdater.cs: be0a401de2fc0af645971e5f2cc08ae4 -> 
+  custom:scripting/monoscript/fileName/FileIDContainer.cs: 28007e4041e469c096dc629713636d7a -> 
+  custom:scripting/monoscript/fileName/Grabber.cs: 1f40bd3a5d787ded638ef6a55ff2caf7 -> 
+  custom:scripting/monoscript/fileName/Zipline.cs: cebfc1b6bbcc34e4ef4d3c413f9ff15f -> 
+  custom:scripting/monoscript/fileName/Str.cs: 3bcfa9ad7ae3f87095302d8df23b173c -> 
+  custom:scripting/monoscript/fileName/GrabPointTriggerEditor.cs: de89613335ee32faefda4a8da1d5c012 -> 
+  custom:scripting/precompiled-assembly-types:VRExplorer.Core: a4fce52a682cea529627a7f22d8c425e -> 
+  custom:scripting/monoscript/fileName/ScaleMaterialHelper.cs: 7ba676598240635c467faaae83d108a8 -> 
+  custom:scripting/monoscript/fileName/StaticBatch.cs: e3ed0330f3856682a8a3f9dda8282d58 -> 
+  custom:scripting/monoscript/fileName/GrabPointEditor.cs: b0e7c1823078f421a65b6216bf142824 -> 
+  custom:scripting/monoscript/fileName/ParallelAction.cs: aa461a39aea8ba493ef7e1eb996b61f0 -> 
+  custom:scripting/monoscript/fileName/DestroyObjectWithDelay.cs: 7e0baa1839e07444faf06dbebeb35264 -> 
+  custom:scripting/monoscript/fileName/GrabbableUnityEvents.cs: bdd5a8f198b0a250627f65ede9f33add -> 
+  custom:scripting/monoscript/fileName/SnapZone.cs: 04b05a1aae79e858812e4e678def1f51 -> 
+  custom:scripting/monoscript/fileName/XRTriggerable.cs: 6018cb9780438ff37c26eab673645e9e -> 
+  custom:scripting/monoscript/fileName/BulletInsert.cs: f5d51b42f31ae8e615095e420fa3169f -> 
+  custom:scripting/monoscript/fileName/HandleGFXHelper.cs: fc31eb80c962e3cb2fced4f39157aea1 -> 
+  custom:scripting/monoscript/fileName/XRBase.cs: ea0bc3e960ec1f235ff4a07764ef4585 -> 
+  custom:scripting/monoscript/fileName/ToggleActiveOnInputAction.cs: 2e73308135d2ef4fc5b5af7627933ada -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/BowArm.cs: c97e9a02f451324e413f5d027e3f7bbc -> 
+  custom:scripting/monoscript/fileName/ProjectileLauncher.cs: bb368808fdd3de75d6e34c6b4fae98a7 -> 
+  custom:scripting/monoscript/fileName/HandPhysics.cs: f6b887f1e2710059c1acbfade3fe486d -> 
+  custom:scripting/precompiled-assembly-types:HenryLab.EAT: 2434563106c8a82abf29e0e8ed711356 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ITransformableEntity.cs: 6a3ddfd4439ecd5896abd4a69677051c -> 
+  custom:scripting/monoscript/fileName/LookAtTransform.cs: 3a0537fca05c76da9a6c31f50b0f9ceb -> 
+  custom:scripting/monoscript/fileName/HandPose.cs: 66019845cf6da01ac9762f477df66e37 -> 
+  custom:scripting/precompiled-assembly-types:VRExplorer.Editor: 0e06e35d59ba5e3a5235ad9cf0b1db4d -> 
+  custom:scripting/monoscript/fileName/VRCanvas.cs: deb9c17b770bcbb0443472f9891fd989 -> 
+  custom:scripting/monoscript/fileName/ExportEditorLogWindow.cs: 7761e0e7c3ebd0e2b719306de6bd4585 -> 
+  custom:scripting/monoscript/fileName/ControllerOffsetHelper.cs: 2cb0086ba7d5338a5dba90562db594f7 -> 
+  custom:scripting/monoscript/fileName/BoneMapping.cs: 71616d8e985a90d4309dd8430bc6ee95 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplay.cs: 32262adba209bf0be8c1ab5b2363286a -> 
+  custom:scripting/monoscript/fileName/Damageable.cs: 4bc57a28a259cdb805b42a673cdb7ea9 -> 
+  custom:scripting/monoscript/fileName/VRAgent.cs: 86446514e08b35d007a648877773499f -> 
+  custom:scripting/monoscript/fileName/ScreenFader.cs: 4118a10aa6f950297000f244ce0c79a1 -> 
+  custom:scripting/monoscript/fileName/FixNonUniformScale.cs: fb5a7661a79c4c70cac827e9b3500663 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/DemoScript.cs: 5479795ecd493b0a4b2fa41d50d89762 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Lever.cs: e9f377d5571e4205748c7f26dad0447b -> 
+  custom:scripting/monoscript/fileName/TaskDef.cs: 9b608124ab1d64f94ac5c865813d5911 -> 
+  custom:scripting/monoscript/fileName/Bow.cs: f7871c5dbda5e0ab22f9f1de6010f746 -> 
+  custom:scripting/monoscript/fileName/HamiltonianExplorer.cs: c934937af83e17924a426390c4acde5a -> 
+  custom:scripting/monoscript/fileName/MoveToWaypoint.cs: 73cae633335fba2eef6a93ea2f2eb1e5 -> 
+  custom:scripting/monoscript/fileName/SnapZoneRingHelper.cs: 127397dbc252ee54d12daf759f0aba8c -> 
+  custom:scripting/monoscript/fileName/NavMeshPointChecker.cs: 10d65388a4df3883d3c58b5d64624656 -> 
+  custom:scripting/monoscript/fileName/TransformAction.cs: e7750906080cd8c2b476236eafd6bcf8 -> 
+  custom:scripting/monoscript/fileName/PlayerScaler.cs: 902971704e1dc0dbd16d8124f6d8707b -> 
+  custom:scripting/monoscript/fileName/HandCollision.cs: 062f074ad9d54b5ecb151e06d5af7994 -> 
+  custom:scripting/monoscript/fileName/Explosive.cs: 4857ecbe38106755e885ba429d98c1a6 -> 
+  custom:scripting/monoscript/fileName/Waypoint.cs: d4beb018cbee592f770671ab22591e9e -> 
+  custom:scripting/monoscript/fileName/ButtonEditor.cs: fe8c04ded99354e84fa69e0e3761b2ad -> 5ac506fb7c7a0164c335183377af7ab2
+  custom:scripting/monoscript/fileName/CharacterIK.cs: 0cb89a9f290f205dd005fe5c81b6eb00 -> 
+  custom:scripting/monoscript/fileName/EditorHandle.cs: 2c6de7749fbd26ed4469322157bc07db -> 
+  custom:scripting/monoscript/fileName/HandPoseDefinitions.cs: 57ebac1637d45f7fc91d80ed5b0b84e7 -> 
+  custom:scripting/monoscript/fileName/RingHelper.cs: 25d399c283a827d6c2e9ff965d856a31 -> 
+  custom:scripting/monoscript/fileName/DamageCollider.cs: fe939a440b4f2fc282d677a18f89b006 -> 
+  custom:scripting/monoscript/fileName/GrabbableEvents.cs: a37537b4c9f6b46545a32346b1436747 -> 
+  custom:scripting/monoscript/fileName/HandPoser.cs: 3eff23047a518b4967026d6812dbb065 -> 
+  custom:scripting/monoscript/fileName/IKDummy.cs: b23c54148046ac47e199ab30ab3f7bb7 -> 
+  custom:scripting/monoscript/fileName/RemoteGrabber.cs: fe328b436222dfdf1aeb8db9117d1d03 -> 
+  custom:scripting/monoscript/fileName/JointHelper.cs: 527713749f57bb41643dea2f6d2c0ea1 -> 
+  custom:scripting/monoscript/fileName/WeaponSlide.cs: d15edc0513ae0aa773353e330fcc9481 -> 
+  custom:scripting/monoscript/fileName/HingeHelper.cs: 12ec45fb1cbec09db4db7692c79cf25e -> 
+  custom:scripting/monoscript/fileName/HandModelSelector.cs: 381070d6a6c0b11ab7fe0b9a83f1bb30 -> 
+  custom:scripting/monoscript/fileName/MagazineSlide.cs: 14b3685ec3827e741e3b06788172e00b -> 
+  custom:scripting/monoscript/fileName/XRTransformable.cs: 4b217afc4f179718eb7ad7707a8fc92d -> 
+  custom:scripting/monoscript/fileName/Slider.cs: cca80b37421c724d4397456de37948b3 -> fa9653030ac65718025b6955291e99ef
+  custom:scripting/monoscript/fileName/CustomCenterOfMass.cs: 6c4d047f73e7ab47f9fa5a128757a20b -> 
+  custom:scripting/monoscript/fileName/InputBridgeEditor.cs: 29fc20c65f1372ed1a08de52ed62ff8a -> 
+  custom:scripting/monoscript/fileName/PointerEvents.cs: 34e35a55cf449af62e040c06da10dfcc -> 
+  custom:scripting/monoscript/fileName/IGrabbableEntity.cs: 9d7a2680dd91fc0c45b7d9529a59f97f -> 
+  custom:scripting/monoscript/fileName/ConstrainLocalPosition.cs: 298adc4df82861d4a00968e73ed9bac2 -> 
+  custom:scripting/monoscript/fileName/InvalidTeleportArea.cs: 21a2b5389ea44db46dc999cc5a295024 -> 
+  custom:scripting/monoscript/fileName/ExperimentManager.cs: 7750ca67ce6863e1e365db2c2719d620 -> 
+  custom:scripting/monoscript/fileName/ControllerModelSelector.cs: d2642d73449d05d8e08e985bce8211a3 -> 
+  custom:scripting/monoscript/fileName/LeverEditor.cs: e1faf8e643abfa1482312de6681a628e -> 
+  custom:scripting/monoscript/fileName/GrabPointTrigger.cs: 79016cc7a66fd3f6ad704dfb3258dabb -> 
+  custom:scripting/monoscript/fileName/CollisionSound.cs: 7775ace4a3753ca4a18c726eb105014f -> 
+  custom:scripting/monoscript/fileName/LineToTransform.cs: 3e20aabedfe8c2f87f46cec00f9251b1 -> 
+  custom:scripting/precompiled-assembly-types:VRAgent.Core: 76728013099ef4d8cfebacab5143ada5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SnapZoneOffset.cs: 35c565db9951f03beb7d2d6db5b041f8 -> 
+  custom:scripting/monoscript/fileName/TrackedDeviceEditor.cs: d577702186dbba99827681a63d9cd632 -> 
+  custom:scripting/monoscript/fileName/RotateWithHMD.cs: 12081e0d26cdc9e758fef681f1f4016e -> 
+  custom:scripting/monoscript/fileName/XRGrabbable.cs: 8d11f6c08d22e8c416415c0a7499ba3b -> 
+  custom:scripting/monoscript/fileName/FollowRigidbody.cs: 16ee203c3a0376f1190943066c0339e5 -> 
+  custom:scripting/monoscript/fileName/SmoothLocomotion.cs: c1447aa31bcf847d8eb298bf327a34cd -> 
+  custom:scripting/monoscript/fileName/ActionDef.cs: 0457d7ae9bf482b61342a9eb19ea78b8 -> 
+  custom:scripting/monoscript/fileName/JoystickControl.cs: a6deeff78ff78c478748c7cb272f5f08 -> 
+  custom:scripting/monoscript/fileName/LaserSword.cs: 1b2f03d3526051d7f1e6c019965dcf28 -> 
+  custom:scripting/monoscript/fileName/BNGPlayerController.cs: 431b7fc195d7bed7cf30878803c81538 -> 
+  custom:scripting/monoscript/fileName/FollowTransform.cs: c1f5917ea80602e419800597b567b7ac -> 
+  custom:scripting/monoscript/fileName/Arrow.cs: 8f575d1704c9c32abec693a6f21c962c -> 
+  custom:scripting/monoscript/fileName/MovingPlatform.cs: 907972487f96af401e5afe89eb834f6c -> 
+  custom:scripting/monoscript/fileName/AssetCounter.cs: 1a7dd4924bb1a68717ed84b3a48312d5 -> 
+  custom:scripting/monoscript/fileName/GrabAction.cs: b22bdce51ba4da64ee02b43ce5f2c9c2 -> 
+  custom:scripting/monoscript/fileName/Grabbable.cs: fb0cadc16158b2a352bf89c554f2a6e7 -> 
+  custom:scripting/monoscript/fileName/PlayerTeleport.cs: 4a1f7180928c61df52b8056d64fa9085 -> 
+  custom:scripting/monoscript/fileName/VRUtils.cs: 6b28b8afbd2a17689e667775f98a3463 -> 
+  custom:scripting/monoscript/fileName/TeleportDestination.cs: 095aa6f65d88e19e5ddc575240eff72d -> 
+  custom:scripting/monoscript/fileName/GrabbableHighlight.cs: 83254214bbe2892d2de62bb09a31008c -> 
+  custom:scripting/monoscript/fileName/ITriggerableEntity.cs: d30892fed2454457e56d841460a1bdd5 -> 
+  custom:scripting/monoscript/fileName/IBaseEntity.cs: 2d43af8304388553b7eb0641913a0952 -> 
+  custom:scripting/monoscript/fileName/PlaySoundOnGrab.cs: d2833a274bdcada0501e15afd044e9e9 -> 
+  custom:scripting/monoscript/fileName/DestroyIfPlayMode.cs: e39af194d47fcb7c22c0dbb56370eb00 -> 
+  custom:scripting/monoscript/fileName/TagInitializer.cs: 8bf60e8396b1fec8e884cc1b56050cba -> 
+  custom:scripting/monoscript/fileName/HandRepresentationHelper.cs: e347708a3b33cdcb72e37fdd11a983be -> 
+  custom:scripting/monoscript/fileName/AutoPoser.cs: 695f06f22b4d25a993620b668b1de174 -> 
+  custom:scripting/monoscript/fileName/InputBridge.cs: 594ae72b2a73a5e51c632e96c6239a16 -> 
+  custom:scripting/monoscript/fileName/UIPointer.cs: a18a6e91f1f1b2579dbb35a6c2d71aee -> 
+  custom:scripting/monoscript/fileName/Callout.cs:  -> da814e237f46ed3cebadcb77e0be50c5
+  custom:scripting/monoscript/fileName/StepManager.cs:  -> 81c8d7259dd8b5466082e88f79b03778
+  custom:scripting/monoscript/fileName/NavMeshAgentPathDebug.cs:  -> 26076ec5b382f97fcaf62c4ec3f1bdc7
+  custom:scripting/monoscript/fileName/VideoPlayerRenderTexture.cs:  -> 2d1b48845d49e82dd7fceba9103ef7f5
+  custom:scripting/monoscript/fileName/DoorNavMeshGate.cs:  -> 7cab5f353c2fb09885e520062536f794
+  custom:scripting/monoscript/fileName/LaunchProjectile.cs:  -> 9bb7f8f28755f7e2281742dc2c5e6b96
+  custom:scripting/monoscript/fileName/LaserBeamSender.cs:  -> 1f27abe396a257eeb50db2d22976f11e
+  custom:scripting/monoscript/fileName/CalloutGazeController.cs:  -> c5a8266b32699a5d0284170657fdadc8
+  custom:scripting/monoscript/fileName/RayAttachModifier.cs:  -> 0fedfa1ac7060b138a4b07c9c7634425
+  custom:scripting/monoscript/fileName/PillowPuzzle.cs:  -> cf99b1805b2bb94a8d222906b059b507
+  custom:scripting/monoscript/fileName/SceneObjectExtractor.cs:  -> 917b0cf53df14256704effe2c89769d2
+  custom:scripting/monoscript/fileName/QuitGame.cs:  -> 5b669f1f803e6c3e0b708e144b6aaea5
+  custom:scripting/monoscript/fileName/room2_trigger.cs:  -> 89fec2b52fea8c41b61e87556442ddcd
+  custom:scripting/monoscript/fileName/BezierCurve.cs:  -> 3aa1597be8d204365d1476b9711b3e18
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> 4e48dc5e1baeae1e6ade9c22e67e919f
+  custom:scripting/monoscript/fileName/Rotator.cs:  -> 1d2321ff2f7fb14b3359a89ff68efa12
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp:  -> f8bb7550e2d108e31f07b5dce1f3240e
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordanceFill.cs:  -> d9ad23222cd696cd8de65c9c4fb013fc
+  custom:scripting/monoscript/fileName/room3.cs:  -> 6d63a019b633af7ef92cb84470477213
+  custom:scripting/monoscript/fileName/XRKnob.cs:  -> 56b2efcaf1bbf4c8af4c0dda75b46bef
+  custom:scripting/monoscript/fileName/SnapToTrigger.cs:  -> d097725915f8b39c1223c3e530e1c8e2
+  custom:scripting/monoscript/fileName/BooleanToggleVisualsController.cs:  -> 5a084401468494437cd3ba6dac885b83
+  custom:scripting/monoscript/fileName/DestroyObject.cs:  -> ade29349972a42112f53f04b8aada8ec
+  custom:scripting/monoscript/fileName/AnchorVisuals.cs:  -> c4d663c5eff83bd1b3bf3d1ecd00ef02
+  custom:scripting/monoscript/fileName/VideoTimeScrubControl.cs:  -> 307e13518ec9b7e61345cbe4ae469169
+  custom:scripting/monoscript/fileName/room2.cs:  -> 64848a1fe7b14f20cb848cdc1ea7c506
+  custom:scripting/monoscript/fileName/DoorOpenScript.cs:  -> e29fc98fbb7669c5518113e01d8b3227
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.361 seconds
+Refreshing native plugins compatible for Editor in 11.77 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <dc753a1061284f8e971ee88ee4826eee>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5d5ebefe97114215928ac1d9cd096522>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.036 seconds
+Domain Reload Profiling: 1392ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1036ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 11.69 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 6550 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 310 unused Assets / (468.6 KB). Loaded Objects now: 7175.
+Memory consumption went from 226.6 MB to 226.2 MB.
+Total: 2.707800 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.106500 ms MarkObjects: 2.079900 ms  DeleteObjects: 0.245700 ms)
+
+Prepare: number of updated asset objects reloaded= 2
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DetachableLimb.cs: adf123b9021c0c8c33325fd5f8213f51 -> 
+  custom:scripting/monoscript/fileName/TestPlanImporterWindow.cs: 93f4e92b72e88471cab5f9a2038fe3b8 -> 
+  custom:scripting/monoscript/fileName/TeleportPlayerOnEnter.cs: 3f04e4f1cc5830a3896b3189716420df -> 
+  custom:scripting/monoscript/fileName/VRIFGrabpointUpdaterEditor.cs: b3c494edf2985d718de103503fb390ee -> 
+  custom:scripting/monoscript/fileName/PlayerRotation.cs: db74278d69968e262cf19083b4638168 -> 
+  custom:scripting/monoscript/fileName/FileIdResolver.cs: 11fbe3ad5c5e310740905b26c4ab8bef -> 
+  custom:scripting/monoscript/fileName/JointBreaker.cs: eb8ce2fcbd3f9b82164b2117a38b4540 -> 
+  custom:scripting/monoscript/fileName/CharacterConstraint.cs: 489f2b22d9b0d3cff80aa3bbb8ee72f8 -> 
+  custom:scripting/monoscript/fileName/VelocityTracker.cs: 26d0ededfa3a01c1b6cc9aa98183ddec -> 
+  custom:scripting/monoscript/fileName/GrabPoint.cs: c333d34c09b2bf828f7d2c1543ef94d3 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VRUISystem.cs: c90def28dc668ceeaafb4db60e6154b6 -> 
+  custom:scripting/monoscript/fileName/ArrowGrabArea.cs: fa28e6760e698bd1d3922fdcf5d8f64c -> 
+  custom:scripting/monoscript/fileName/LocomotionManager.cs: 6dd6f52673fcf67da92d49b8cce4a66c -> 
+  custom:scripting/monoscript/fileName/GrabbablesInTrigger.cs: c06dcfe681475f0a68dab590f09dd1e0 -> 
+  custom:scripting/monoscript/fileName/RagdollHelper.cs: 4ed8dd102d9dcd408aacaa07126c9e78 -> 
+  custom:scripting/monoscript/fileName/FingerJoint.cs: 26f925fdbd266656fc43284408388f97 -> 
+  custom:scripting/monoscript/fileName/BaseExplorer.cs: d41055a68981854091fed290922c6b32 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CharacterYOffset.cs: 51688010d13eca4db3a963eda10ecab9 -> 
+  custom:scripting/monoscript/fileName/RichText.cs: 56b26cfdb31f1b64f8408072204d9e45 -> 
+  custom:scripting/monoscript/fileName/HandPoseSaveAs.cs: dd57aa5c106c57eb3bc7136c358bc9e3 -> 
+  custom:scripting/monoscript/fileName/BaseAction.cs: 29735cbbe4f0a2179fafafe08c0dcc33 -> 
+  custom:scripting/monoscript/fileName/ActionUnitConverter.cs: 9cdc7c8396fe0c9b3036ef493caa4223 -> 
+  custom:scripting/monoscript/fileName/Marker.cs: 21bd5e8d8617bcd7cb068f42622f7878 -> 696c95afe34ccc04af31507858d049ed
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: b0aa02ba7291465a9cfe50ffdb75c09a -> 
+  custom:scripting/monoscript/fileName/HandPoserEditor.cs: 79e6ec5de731f16759e31c774641c960 -> 
+  custom:scripting/monoscript/fileName/GrabbableRingHelper.cs: 9f0f47f9390bc2134bcfdbb0fc684614 -> 
+  custom:scripting/monoscript/fileName/Climbable.cs: b4b5a0f9bf83fd2c6d12ca778e2b5331 -> 
+  custom:scripting/monoscript/fileName/PlayerClimbing.cs: f039f89a58189e370455f6e6140e00ee -> 
+  custom:scripting/monoscript/fileName/PlayerGravity.cs: 1a70375b581123047ee6a5b9f828210b -> 
+  custom:scripting/monoscript/fileName/EntityManager.cs: cb9d697e2fa7f578296d7793946c50ae -> 
+  custom:scripting/monoscript/fileName/Flashlight.cs: b63deebf344853d97b07ebc990c03509 -> 
+  custom:scripting/monoscript/fileName/HeadCollisionFade.cs: 1667a5a76b45c192e5cbfed8131521c4 -> 
+  custom:scripting/monoscript/fileName/ReturnToSnapZone.cs: 6b98837112f0c2ace840d27f0638b20c -> 
+  custom:scripting/monoscript/fileName/Tooltip.cs: 3a9ed4a57c35e63ea9d61b1e01b8d5e4 -> efbd10c978725fde614599dc839eb715
+  custom:scripting/monoscript/fileName/PunctureCollider.cs: 1b4229ba43dd1f91cfef3efe4400152b -> 
+  custom:scripting/monoscript/fileName/IntegrationsEditor.cs: da3848e1deb4a2a08250e4887347fe23 -> 
+  custom:scripting/monoscript/fileName/GrabbableBezierLine.cs: f499e883d4eb7a01df2b648ee5278ccc -> 
+  custom:scripting/monoscript/fileName/Projectile.cs: c29a67e707bbc35e308410d1e88cd2e5 -> 
+  custom:scripting/monoscript/fileName/ScaleBetweenPoints.cs: 8d07cc7d5ddc2c3452ec3e395844fe23 -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 8f042e67f9d9c21d4e0429b12d52ba4e -> 
+  custom:scripting/monoscript/fileName/TimeController.cs: 639dc5f076ae928044a6d29a2bf8f060 -> 
+  custom:scripting/monoscript/fileName/VREmulator.cs: 5cee6ff89542b24d2d3665b05dd9b323 -> 
+  custom:scripting/monoscript/fileName/AutoPoserEditor.cs: 9323a7b5d8bf406a3571b753fdf1e7b9 -> 
+  custom:scripting/monoscript/fileName/ParameterResolver.cs: e54a3a0aa2d147579035383d62da6810 -> 
+  custom:scripting/monoscript/fileName/ClimbableEditor.cs: 9c942abafd2c8bb50dbcd1f41ca85b8c -> 
+  custom:scripting/monoscript/fileName/TriggerAction.cs: bf85dc5cd87e59e8a3a739401af7d2ef -> 
+  custom:scripting/monoscript/fileName/SkeletonVisualizer.cs: e5154a5e9e742a8130d44c82c028984f -> 
+  custom:scripting/monoscript/fileName/TrackedDevice.cs: 9a6750267684528265b8b00f303dd2d8 -> c0a523d9ef4d6df623781ab9912266ea
+  custom:scripting/monoscript/fileName/Singleton.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/Button.cs: ea5869cdad2326d406cb645783293221 -> 18874d3cd8f6e3668320e6beabdb6cbc
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GrabberArea.cs: 1b74ab075d76605adfee11896503b0cd -> 
+  custom:scripting/monoscript/fileName/AmmoDispenser.cs: af017ee03c31121b2bbee29d96ffab87 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/HandPoseDefinition.cs: 57f2b3d923c8f44528c181f606081d79 -> 
+  custom:scripting/monoscript/fileName/LiquidWobble.cs: 955a10dacebcc49ea358429fed7495f7 -> 
+  custom:scripting/monoscript/fileName/PluginsEditor.cs: 050ba7ad2acb5362a8260d5219e9adfc -> 
+  custom:scripting/monoscript/fileName/GrabbableHighlightMaterial.cs: 8f2f8fb8f9bca656c4f86a305e3d4485 -> 
+  custom:scripting/monoscript/fileName/GrappleShot.cs: e1212414151cbc03f83fec3c86a3bfb7 -> 
+  custom:scripting/monoscript/fileName/RaycastWeapon.cs: 0102b98eda647cecaecc163aeb39d4db -> 
+  custom:scripting/monoscript/fileName/BulletHole.cs: e56ef697d8546a290f15274cc46a9b4b -> 
+  custom:scripting/monoscript/fileName/HandPoseEditor.cs: 0e8160827b74d9dace03370981f74ec1 -> 
+  custom:scripting/monoscript/fileName/DrawerSound.cs: 680829e192ee15311ae2eee293cc075e -> 
+  custom:scripting/monoscript/fileName/PlayerMovingPlatformSupport.cs: 6c16175c01e374636481249760ae83dd -> 
+  custom:scripting/monoscript/fileName/GrabbableChild.cs: 1893a7f033c01925b741449d2a83b5ea -> 
+  custom:scripting/monoscript/fileName/HandleHelper.cs: 4d7c6a32e41423321e92af36826ab902 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandController.cs: 53a4ad388cccb43d28f2eff8aad69c25 -> 
+  custom:scripting/monoscript/fileName/DemoCube.cs: 3417bf3ff1d12a2727fdf008a92de2a8 -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 1d23113412bef0704ecb3ee4c4293a9f -> 
+  custom:scripting/monoscript/fileName/FPSText.cs: 026a0e35fda18dec29d54a3f9093689a -> 
+  custom:scripting/monoscript/fileName/FingerTipCollider.cs: b1f135dffee43e48f250589396eba614 -> 
+  custom:scripting/monoscript/fileName/DoorHelper.cs: 6dad351d53245f70025db15a13884839 -> 
+  custom:scripting/monoscript/fileName/VRExplorer.cs: e7fa7f7795c96037f1266000de9fb697 -> 
+  custom:scripting/monoscript/fileName/GrabbableEditor.cs: 97c00f620871cc2831348d1897a673c1 -> 
+  custom:scripting/monoscript/fileName/MoveAction.cs: 27d10bb685f34a415b478e8f17c2a951 -> 
+  custom:scripting/monoscript/fileName/UITrigger.cs: e1c4dac016e03bc943713f00484e552b -> 
+  custom:scripting/monoscript/fileName/SnapZoneScale.cs: f98da9539f2932e247c40ffff64cd2c4 -> 
+  custom:scripting/monoscript/fileName/VehicleController.cs: a9154d17b90cc2b6904c1582c39c6d88 -> 
+  custom:scripting/monoscript/fileName/IgnoreColliders.cs: e67a3220abcc8b902c430adc6c6e8e1c -> 
+  custom:scripting/monoscript/fileName/RotateTowards.cs: c3715721046be8225244c9f6f81cf5fb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandJet.cs: dbd2d9f4f301a114355202127e20d220 -> 
+  custom:scripting/monoscript/fileName/GrabbableHaptics.cs: e8dfc9185b1eef7a565b804f345b4405 -> 
+  custom:scripting/monoscript/fileName/LaserPointer.cs: 2ae575f78d24d8c4363eca6a2eb61e46 -> 
+  custom:scripting/monoscript/fileName/VRIFGrabpointUpdater.cs: be0a401de2fc0af645971e5f2cc08ae4 -> 
+  custom:scripting/monoscript/fileName/FileIDContainer.cs: 28007e4041e469c096dc629713636d7a -> 
+  custom:scripting/monoscript/fileName/Grabber.cs: 1f40bd3a5d787ded638ef6a55ff2caf7 -> 
+  custom:scripting/monoscript/fileName/Zipline.cs: cebfc1b6bbcc34e4ef4d3c413f9ff15f -> 
+  custom:scripting/monoscript/fileName/Str.cs: 3bcfa9ad7ae3f87095302d8df23b173c -> 
+  custom:scripting/monoscript/fileName/GrabPointTriggerEditor.cs: de89613335ee32faefda4a8da1d5c012 -> 
+  custom:scripting/monoscript/fileName/ScaleMaterialHelper.cs: 7ba676598240635c467faaae83d108a8 -> 
+  custom:scripting/monoscript/fileName/StaticBatch.cs: e3ed0330f3856682a8a3f9dda8282d58 -> 
+  custom:scripting/monoscript/fileName/GrabPointEditor.cs: b0e7c1823078f421a65b6216bf142824 -> 
+  custom:scripting/monoscript/fileName/ParallelAction.cs: aa461a39aea8ba493ef7e1eb996b61f0 -> 
+  custom:scripting/monoscript/fileName/DestroyObjectWithDelay.cs: 7e0baa1839e07444faf06dbebeb35264 -> 
+  custom:scripting/monoscript/fileName/GrabbableUnityEvents.cs: bdd5a8f198b0a250627f65ede9f33add -> 
+  custom:scripting/monoscript/fileName/SnapZone.cs: 04b05a1aae79e858812e4e678def1f51 -> 
+  custom:scripting/monoscript/fileName/XRTriggerable.cs: 6018cb9780438ff37c26eab673645e9e -> 
+  custom:scripting/monoscript/fileName/BulletInsert.cs: f5d51b42f31ae8e615095e420fa3169f -> 
+  custom:scripting/monoscript/fileName/HandleGFXHelper.cs: fc31eb80c962e3cb2fced4f39157aea1 -> 
+  custom:scripting/monoscript/fileName/XRBase.cs: ea0bc3e960ec1f235ff4a07764ef4585 -> 
+  custom:scripting/monoscript/fileName/ToggleActiveOnInputAction.cs: 2e73308135d2ef4fc5b5af7627933ada -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/BowArm.cs: c97e9a02f451324e413f5d027e3f7bbc -> 
+  custom:scripting/monoscript/fileName/ProjectileLauncher.cs: bb368808fdd3de75d6e34c6b4fae98a7 -> 
+  custom:scripting/monoscript/fileName/HandPhysics.cs: f6b887f1e2710059c1acbfade3fe486d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ITransformableEntity.cs: 6a3ddfd4439ecd5896abd4a69677051c -> 
+  custom:scripting/monoscript/fileName/LookAtTransform.cs: 3a0537fca05c76da9a6c31f50b0f9ceb -> 
+  custom:scripting/monoscript/fileName/HandPose.cs: 66019845cf6da01ac9762f477df66e37 -> 
+  custom:scripting/monoscript/fileName/VRCanvas.cs: deb9c17b770bcbb0443472f9891fd989 -> 
+  custom:scripting/monoscript/fileName/ExportEditorLogWindow.cs: 7761e0e7c3ebd0e2b719306de6bd4585 -> 
+  custom:scripting/monoscript/fileName/ControllerOffsetHelper.cs: 2cb0086ba7d5338a5dba90562db594f7 -> 
+  custom:scripting/monoscript/fileName/BoneMapping.cs: 71616d8e985a90d4309dd8430bc6ee95 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplay.cs: 32262adba209bf0be8c1ab5b2363286a -> 
+  custom:scripting/monoscript/fileName/Damageable.cs: 4bc57a28a259cdb805b42a673cdb7ea9 -> 
+  custom:scripting/monoscript/fileName/VRAgent.cs: 86446514e08b35d007a648877773499f -> 
+  custom:scripting/monoscript/fileName/ScreenFader.cs: 4118a10aa6f950297000f244ce0c79a1 -> 
+  custom:scripting/monoscript/fileName/FixNonUniformScale.cs: fb5a7661a79c4c70cac827e9b3500663 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/DemoScript.cs: 5479795ecd493b0a4b2fa41d50d89762 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Lever.cs: e9f377d5571e4205748c7f26dad0447b -> 
+  custom:scripting/monoscript/fileName/TaskDef.cs: 9b608124ab1d64f94ac5c865813d5911 -> 
+  custom:scripting/monoscript/fileName/Bow.cs: f7871c5dbda5e0ab22f9f1de6010f746 -> 
+  custom:scripting/monoscript/fileName/HamiltonianExplorer.cs: c934937af83e17924a426390c4acde5a -> 
+  custom:scripting/monoscript/fileName/MoveToWaypoint.cs: 73cae633335fba2eef6a93ea2f2eb1e5 -> 
+  custom:scripting/monoscript/fileName/SnapZoneRingHelper.cs: 127397dbc252ee54d12daf759f0aba8c -> 
+  custom:scripting/monoscript/fileName/NavMeshPointChecker.cs: 10d65388a4df3883d3c58b5d64624656 -> 
+  custom:scripting/monoscript/fileName/TransformAction.cs: e7750906080cd8c2b476236eafd6bcf8 -> 
+  custom:scripting/monoscript/fileName/PlayerScaler.cs: 902971704e1dc0dbd16d8124f6d8707b -> 
+  custom:scripting/monoscript/fileName/HandCollision.cs: 062f074ad9d54b5ecb151e06d5af7994 -> 
+  custom:scripting/monoscript/fileName/Explosive.cs: 4857ecbe38106755e885ba429d98c1a6 -> 
+  custom:scripting/monoscript/fileName/Waypoint.cs: d4beb018cbee592f770671ab22591e9e -> 
+  custom:scripting/monoscript/fileName/ButtonEditor.cs: fe8c04ded99354e84fa69e0e3761b2ad -> 5ac506fb7c7a0164c335183377af7ab2
+  custom:scripting/monoscript/fileName/CharacterIK.cs: 0cb89a9f290f205dd005fe5c81b6eb00 -> 
+  custom:scripting/monoscript/fileName/EditorHandle.cs: 2c6de7749fbd26ed4469322157bc07db -> 
+  custom:scripting/monoscript/fileName/HandPoseDefinitions.cs: 57ebac1637d45f7fc91d80ed5b0b84e7 -> 
+  custom:scripting/monoscript/fileName/RingHelper.cs: 25d399c283a827d6c2e9ff965d856a31 -> 
+  custom:scripting/monoscript/fileName/DamageCollider.cs: fe939a440b4f2fc282d677a18f89b006 -> 
+  custom:scripting/monoscript/fileName/GrabbableEvents.cs: a37537b4c9f6b46545a32346b1436747 -> 
+  custom:scripting/monoscript/fileName/HandPoser.cs: 3eff23047a518b4967026d6812dbb065 -> 
+  custom:scripting/monoscript/fileName/IKDummy.cs: b23c54148046ac47e199ab30ab3f7bb7 -> 
+  custom:scripting/monoscript/fileName/RemoteGrabber.cs: fe328b436222dfdf1aeb8db9117d1d03 -> 
+  custom:scripting/monoscript/fileName/JointHelper.cs: 527713749f57bb41643dea2f6d2c0ea1 -> 
+  custom:scripting/monoscript/fileName/WeaponSlide.cs: d15edc0513ae0aa773353e330fcc9481 -> 
+  custom:scripting/monoscript/fileName/HingeHelper.cs: 12ec45fb1cbec09db4db7692c79cf25e -> 
+  custom:scripting/monoscript/fileName/HandModelSelector.cs: 381070d6a6c0b11ab7fe0b9a83f1bb30 -> 
+  custom:scripting/monoscript/fileName/MagazineSlide.cs: 14b3685ec3827e741e3b06788172e00b -> 
+  custom:scripting/monoscript/fileName/XRTransformable.cs: 4b217afc4f179718eb7ad7707a8fc92d -> 
+  custom:scripting/monoscript/fileName/Slider.cs: cca80b37421c724d4397456de37948b3 -> fa9653030ac65718025b6955291e99ef
+  custom:scripting/monoscript/fileName/CustomCenterOfMass.cs: 6c4d047f73e7ab47f9fa5a128757a20b -> 
+  custom:scripting/monoscript/fileName/InputBridgeEditor.cs: 29fc20c65f1372ed1a08de52ed62ff8a -> 
+  custom:scripting/monoscript/fileName/PointerEvents.cs: 34e35a55cf449af62e040c06da10dfcc -> 
+  custom:scripting/monoscript/fileName/IGrabbableEntity.cs: 9d7a2680dd91fc0c45b7d9529a59f97f -> 
+  custom:scripting/monoscript/fileName/ConstrainLocalPosition.cs: 298adc4df82861d4a00968e73ed9bac2 -> 
+  custom:scripting/monoscript/fileName/InvalidTeleportArea.cs: 21a2b5389ea44db46dc999cc5a295024 -> 
+  custom:scripting/monoscript/fileName/ExperimentManager.cs: 7750ca67ce6863e1e365db2c2719d620 -> 
+  custom:scripting/monoscript/fileName/ControllerModelSelector.cs: d2642d73449d05d8e08e985bce8211a3 -> 
+  custom:scripting/monoscript/fileName/LeverEditor.cs: e1faf8e643abfa1482312de6681a628e -> 
+  custom:scripting/monoscript/fileName/GrabPointTrigger.cs: 79016cc7a66fd3f6ad704dfb3258dabb -> 
+  custom:scripting/monoscript/fileName/CollisionSound.cs: 7775ace4a3753ca4a18c726eb105014f -> 
+  custom:scripting/monoscript/fileName/LineToTransform.cs: 3e20aabedfe8c2f87f46cec00f9251b1 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SnapZoneOffset.cs: 35c565db9951f03beb7d2d6db5b041f8 -> 
+  custom:scripting/monoscript/fileName/TrackedDeviceEditor.cs: d577702186dbba99827681a63d9cd632 -> 
+  custom:scripting/monoscript/fileName/RotateWithHMD.cs: 12081e0d26cdc9e758fef681f1f4016e -> 
+  custom:scripting/monoscript/fileName/XRGrabbable.cs: 8d11f6c08d22e8c416415c0a7499ba3b -> 
+  custom:scripting/monoscript/fileName/FollowRigidbody.cs: 16ee203c3a0376f1190943066c0339e5 -> 
+  custom:scripting/monoscript/fileName/SmoothLocomotion.cs: c1447aa31bcf847d8eb298bf327a34cd -> 
+  custom:scripting/monoscript/fileName/ActionDef.cs: 0457d7ae9bf482b61342a9eb19ea78b8 -> 
+  custom:scripting/monoscript/fileName/JoystickControl.cs: a6deeff78ff78c478748c7cb272f5f08 -> 
+  custom:scripting/monoscript/fileName/LaserSword.cs: 1b2f03d3526051d7f1e6c019965dcf28 -> 
+  custom:scripting/monoscript/fileName/BNGPlayerController.cs: 431b7fc195d7bed7cf30878803c81538 -> 
+  custom:scripting/monoscript/fileName/FollowTransform.cs: c1f5917ea80602e419800597b567b7ac -> 
+  custom:scripting/monoscript/fileName/Arrow.cs: 8f575d1704c9c32abec693a6f21c962c -> 
+  custom:scripting/monoscript/fileName/MovingPlatform.cs: 907972487f96af401e5afe89eb834f6c -> 
+  custom:scripting/monoscript/fileName/AssetCounter.cs: 1a7dd4924bb1a68717ed84b3a48312d5 -> 
+  custom:scripting/monoscript/fileName/GrabAction.cs: b22bdce51ba4da64ee02b43ce5f2c9c2 -> 
+  custom:scripting/monoscript/fileName/Grabbable.cs: fb0cadc16158b2a352bf89c554f2a6e7 -> 
+  custom:scripting/monoscript/fileName/PlayerTeleport.cs: 4a1f7180928c61df52b8056d64fa9085 -> 
+  custom:scripting/monoscript/fileName/VRUtils.cs: 6b28b8afbd2a17689e667775f98a3463 -> 
+  custom:scripting/monoscript/fileName/TeleportDestination.cs: 095aa6f65d88e19e5ddc575240eff72d -> 
+  custom:scripting/monoscript/fileName/GrabbableHighlight.cs: 83254214bbe2892d2de62bb09a31008c -> 
+  custom:scripting/monoscript/fileName/ITriggerableEntity.cs: d30892fed2454457e56d841460a1bdd5 -> 
+  custom:scripting/monoscript/fileName/IBaseEntity.cs: 2d43af8304388553b7eb0641913a0952 -> 
+  custom:scripting/monoscript/fileName/PlaySoundOnGrab.cs: d2833a274bdcada0501e15afd044e9e9 -> 
+  custom:scripting/monoscript/fileName/DestroyIfPlayMode.cs: e39af194d47fcb7c22c0dbb56370eb00 -> 
+  custom:scripting/monoscript/fileName/TagInitializer.cs: 8bf60e8396b1fec8e884cc1b56050cba -> 
+  custom:scripting/monoscript/fileName/HandRepresentationHelper.cs: e347708a3b33cdcb72e37fdd11a983be -> 
+  custom:scripting/monoscript/fileName/AutoPoser.cs: 695f06f22b4d25a993620b668b1de174 -> 
+  custom:scripting/monoscript/fileName/InputBridge.cs: 594ae72b2a73a5e51c632e96c6239a16 -> 
+  custom:scripting/monoscript/fileName/UIPointer.cs: a18a6e91f1f1b2579dbb35a6c2d71aee -> 
