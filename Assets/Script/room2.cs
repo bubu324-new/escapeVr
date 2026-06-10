@@ -18,7 +18,6 @@ public class room2 : MonoBehaviour
     {
         if(SphereChecked && CubeChecked && PyramidChecked)
         {
-            doorOpen = true;
             doorAnim.Play("DoorOpen", 0, 0.0f);
             if(doorAnim != null)
                 DoorNavMeshGate.OpenPassageOn(doorAnim.gameObject);
