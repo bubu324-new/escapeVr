@@ -16,7 +16,7 @@ public class room2 : MonoBehaviour
 
     private void Update()
     {
-        if(SphereChecked && CubeChecked && PyramidChecked && !doorOpen)
+        if(SphereChecked && CubeChecked && PyramidChecked)
         {
             doorOpen = true;
             doorAnim.Play("DoorOpen", 0, 0.0f);
